@@ -14,6 +14,8 @@ API_KEY = os.getenv("YOUTUBE_API_KEY")
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
+
+
 def fetch_video_data(video_url):
     """
     Fetches YouTube video metadata using yt-dlp.
