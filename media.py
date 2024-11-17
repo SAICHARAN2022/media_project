@@ -5,7 +5,11 @@ import yt_dlp
 
 # YouTube API setup
 API_KEY = os.getenv("YOUTUBE_API_KEY")
-print(API_KEY)
+
+
+
+
+
   # Replace with your YouTube Data API key
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
